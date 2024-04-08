@@ -6,10 +6,6 @@ import java.nio.file.Paths;
 import java.util.List;
 import java.util.stream.Collectors;
 
-/**
- * Hello world!
- *
- */
 public class App {
     public static void main(String[] args) throws IOException {
         List<String> words = Files.readAllLines(Paths.get("C:\\Users\\utentepc\\Documents\\words.txt"));
