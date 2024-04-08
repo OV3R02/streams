@@ -1,9 +1,6 @@
 package it.tsp;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Stream;
 
 public class AppGenerics {
     public static void main(String[] args) {
@@ -22,7 +19,7 @@ public class AppGenerics {
 
         System.out.println(checkArray(a1, a2));
         
-
+        System.out.println(somma(1, 2));
         /*
          * List g = new ArrayList<>();
          * g.add("parola");
@@ -41,6 +38,7 @@ public class AppGenerics {
          */
     }
 
+    @SuppressWarnings("unused")
     private static <T> boolean checkArray(T[] array1, T[] array2) {
         if (array1.length != array2.length) {
             System.out.println("a1 and a2 haven't the same length.");
